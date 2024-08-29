@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-08-29T14:51:30.368827" rpa="false" schemaversion="5">
+<suite id="s1" name="TC1" source="C:\Users\jpawarrh\PycharmProjects\RobotFramework\TestCases\TC1.robot">
+<test id="s1-t1" name="LoginTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-29T14:51:30.670154" level="INFO">Opening browser 'Chrome' to base url 'https://obcpneustg-desktopui.obcompanion.cloud/#/'.</msg>
+<arg>https://obcpneustg-desktopui.obcompanion.cloud/#/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-29T14:51:30.670154" elapsed="10.045083"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-29T14:51:40.716234" elapsed="0.044331"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-29T14:51:50.761866" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-29T14:51:40.761715" elapsed="10.000151"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-29T14:51:50.761866" level="INFO">Typing text 'rahul@dbk.com' into text field 'xpath://input[@placeholder='Username']'.</msg>
+<arg>xpath://input[@placeholder='Username']</arg>
+<arg>rahul@dbk.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-29T14:51:50.761866" elapsed="0.173385"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-29T14:51:50.936055" level="INFO">Clicking element 'xpath://input[@id='terms-of-use']'.</msg>
+<arg>xpath://input[@id='terms-of-use']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-29T14:51:50.935251" elapsed="0.072301"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-29T14:52:01.008921" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-29T14:51:51.008591" elapsed="10.000330"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-08-29T14:52:01.008921" level="INFO">Clicking button 'xpath: //button[normalize-space()='Next']'.</msg>
+<arg>xpath: //button[normalize-space()='Next']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-29T14:52:01.008921" elapsed="0.081883"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-29T14:52:11.091382" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-29T14:52:01.090804" elapsed="10.000578"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-29T14:52:11.091382" level="INFO">Typing text 'Jci12!@' into text field 'xpath://input[@placeholder='Enter password']'.</msg>
+<arg>xpath://input[@placeholder='Enter password']</arg>
+<arg>Jci12!@</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-29T14:52:11.091382" elapsed="0.101745"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-08-29T14:52:11.194128" level="INFO">Clicking button 'xpath://button[normalize-space()='Login']'.</msg>
+<arg>xpath://button[normalize-space()='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-29T14:52:11.194128" elapsed="0.069072"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-29T14:52:21.263680" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-29T14:52:11.263200" elapsed="10.000480"/>
+</kw>
+<kw name="Get Browser Ids" owner="SeleniumLibrary">
+<doc>Returns index of all active browser as list.</doc>
+<status status="PASS" start="2024-08-29T14:52:21.263680" elapsed="0.001005"/>
+</kw>
+<status status="PASS" start="2024-08-29T14:51:30.669030" elapsed="50.595792"/>
+</test>
+<status status="PASS" start="2024-08-29T14:51:30.372254" elapsed="50.893298"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
